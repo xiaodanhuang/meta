@@ -15,11 +15,6 @@
 
 | index |       title            | code           |  Difficulty   | date |
 | :--:  | :-------------------:  | :---:          |  :--:         | :--: |
-| 647 | countSubstrings | [JavaScript](./0647.countSubstrings.js) | Medium |20.05.08|
-| 739 | Daily Temperatures | [JavaScript](./javascript/0739.daily-temperatures.js) | Medium |20.05.08|
+| 647 | countSubstrings | [JavaScript](./javascript/0647.countSubstrings.js) | Medium |20.05.08|
+| 739 | Daily Temperatures | [JavaScript](./javascript/0739.dailyTemperatures.js) | Medium |20.05.08|
 
-<style>
-*{
-margin:auto;
-}
-</style>
