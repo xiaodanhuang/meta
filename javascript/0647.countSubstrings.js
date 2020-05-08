@@ -23,5 +23,4 @@ var countSubstrings = function(s) {
     }
     return num;
 };
-console.log(countSubstrings('aaa'))
 
