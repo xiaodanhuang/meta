@@ -8,7 +8,7 @@ var deleteDuplicates = function(head) {
     dummy.next = head
     let d = dummy
     while(d && d.next) {
-        if(map.get(d.next.val) !== d.next) {
+        if(map.get(d.next.val) && map.get(d.next.val) !== d.next) {
             d.next = d.next ? d.next.next : null
         } else {
             map.set(d.next.val,d.next)
