@@ -11,8 +11,8 @@
 </div>
 
 tag: LinkList
-| index |tag |       title            | code           |  Difficulty   | date |
-| :--:  | :--:  | :-------------------:  | :---:          |  :--:         | :--: |
+| index | tag   |       title            | code        |  Difficulty   | date |
+| :--:  | :--:  | :-------------------:  | :---:       |    :--:       | :--: |
 | 0021 | LinkList | Merge Two Sorted Lists | [leetcode](leetcode/0021.mergeTwoLists.js) | Easy |20.07.02|
 | 0083 | LinkList | Remove Duplicates from Sorted List| [leetcode](leetcode/0083.deleteDuplicates.js)| Easy | 20.07.02|
 | 0141 | LinkList | Linked List Cycle| [leetcode](leetcode/0141.hasCycle.js)| Easy | 20.07.02|
@@ -26,6 +26,11 @@ tag: LinkList
 | 0002 | LinkList |  Add Two Numbers | [leetcode](leetcode/0002.addTwoNumbers.js) | Medium |20.07.03|
 | 0328 | LinkList | Odd Even Linked List | [leetcode](leetcode/0328.oddEvenList.js) | Medium |20.07.03|
 | 0138 | LinkList | Copy List with Random Pointer | [leetcode](leetcode/0138.copyRandomList.js) | Medium |20.07.03|
+| 0019 | LinkList | Remove Nth Node From End of List | [leetcode](leetcode/0019.removeNthFromEnd.js) | Medium |20.07.06|
+| 0024 | LinkList | Swap Nodes in Pairs | [leetcode](leetcode/0024.swapPairs.js) | Medium |20.07.06|
+| 0061 | LinkList | Rotate List | [leetcode](leetcode/0061.rotateRight.js) | Medium |20.07.06|
+| 0061 | LinkList | Remove Duplicates from Sorted List II | [leetcode](leetcode/0082.deleteDuplicates.js) | Medium |20.07.06|
+| 0086 | LinkList | Partition List | [leetcode](leetcode/0086.partition.js) | Medium |20.07.06|
 
 
 
