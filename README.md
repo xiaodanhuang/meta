@@ -31,6 +31,8 @@ tag: LinkList
 | 0061 | LinkList | Rotate List | [leetcode](leetcode/0061.rotateRight.js) | Medium |20.07.06|
 | 0061 | LinkList | Remove Duplicates from Sorted List II | [leetcode](leetcode/0082.deleteDuplicates.js) | Medium |20.07.06|
 | 0086 | LinkList | Partition List | [leetcode](leetcode/0086.partition.js) | Medium |20.07.06|
+| 0092 | LinkList | Reverse Linked List II | [leetcode](leetcode/0092.reverseBetween.js) | Medium |20.07.07|
+| 0142 | LinkList | Reverse Linked List II | [leetcode](leetcode/0142.detectCycle.js) | Medium |20.07.07|
 
 
 
