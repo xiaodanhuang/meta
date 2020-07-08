@@ -2,13 +2,13 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var deleteDuplicates = function(head) {
+var deleteDuplicates = function (head) {
     let dummy = new ListNode(0)
     dummy.next = head
     let d = head
-    let map = new Map ()
+    let map = new Map()
     while (d && d.next) {
-        if(d.val === d.next.val) {
+        if (d.val === d.next.val) {
             map.set(d.next.val, d.next)
             d.next = d.next.next
         } else {
@@ -17,7 +17,7 @@ var deleteDuplicates = function(head) {
     }
     d = dummy
     while (d && d.next) {
-        if(map.get(d.next.val)){
+        if (map.get(d.next.val)) {
             d.next = d.next.next
         } else {
             d = d.next
@@ -25,11 +25,13 @@ var deleteDuplicates = function(head) {
     }
     return dummy.next
 };
+
 function ListNode(val) {
     this.val = val
     this.next = null
 }
-let  a = new ListNode(1)
+
+let a = new ListNode(1)
 a.next = new ListNode(1)
 a.next.next = new ListNode(1)
 a.next.next.next = new ListNode(2)

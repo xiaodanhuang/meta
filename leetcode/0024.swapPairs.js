@@ -2,7 +2,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var swapPairs = function(head) {
+var swapPairs = function (head) {
     let dummy = new ListNode(0)
     dummy.next = head
     let fast = head

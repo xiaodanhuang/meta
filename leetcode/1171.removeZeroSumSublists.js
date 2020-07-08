@@ -10,7 +10,7 @@
  * @return {ListNode}
  */
 
-var removeZeroSumSublists = function(head) {
+var removeZeroSumSublists = function (head) {
     let dummy = new ListNode(0)
     dummy.next = head
     let sum = 0
@@ -20,8 +20,8 @@ var removeZeroSumSublists = function(head) {
         map.set(sum, d)
     }
     sum = 0
-    for(let d = dummy; d!== null ; d= d.next) {
-        sum +=d.val
+    for (let d = dummy; d !== null; d = d.next) {
+        sum += d.val
         d.next = map.get(sum).next
     }
     return dummy.next

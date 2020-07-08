@@ -10,13 +10,13 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-var mergeTwoLists = function(l1, l2) {
+var mergeTwoLists = function (l1, l2) {
     let node = new ListNode(0)
     let currentNode = node
     let l1Head = l1
     let l2Head = l2
-    while(l1Head && l2Head) {
-        if (l1Head.val <l2Head.val) {
+    while (l1Head && l2Head) {
+        if (l1Head.val < l2Head.val) {
             currentNode.next = l1Head
             l1Head = l1Head.next
         } else {
@@ -28,7 +28,7 @@ var mergeTwoLists = function(l1, l2) {
     if (l1Head) {
         currentNode = l1Head
     }
-    if(l2Head) {
+    if (l2Head) {
         currentNode = l2Head
     }
     return node.next
