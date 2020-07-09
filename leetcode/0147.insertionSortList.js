@@ -3,31 +3,29 @@
  * @return {ListNode}
  */
 var insertionSortList = function(head) {
-    let dummy = new ListNode(0)
-    dummy.next = head
-    let node = dummy
-    let insertNode = new ListNode(0)
-    while(node && node.next){
-        let cur = insertNode
-        let isInsert =false
-        while (cur && cur.next) {
-            if(node.next.val < cur.next.val) {
-                let currentCur = cur.next
-                cur.next = node.next
-                node.next = node.next.next
-                cur.next.next = currentCur
-                isInsert = true
-            } else {
-                cur =cur.next
-            }
-        }
-        if(!isInsert) {
-            cur.next = node
-        }
-        node = node.next
+    let node = new ListNode(0)
+    node.next = head
+    let cur = new ListNode(0)
+    while ( node && node.next){
+        let beforeNode = findBeforeNode(cur,node.next)
+        beforeNode = beforeNode ? beforeNode :cur
+        let next =  beforeNode.next
+        beforeNode.next = node.next
+        node.next = node.next.next
+        beforeNode.next.next = next
     }
-    return dummy.next
+    return cur.next
 };
+function findBeforeNode (cur,node) {
+
+   while (cur && cur.next) {
+       if(cur.next.val > node.val) {
+           return cur
+       }
+       cur = cur.next
+   }
+    return cur
+}
 function ListNode(val) {
     this.val = val
     this.next = null
