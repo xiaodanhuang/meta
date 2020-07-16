@@ -49,7 +49,7 @@ tag: stack
 | 0844 | stack | Backspace String Compare | [leetcode](stack/0844.backspaceCompare.js) | Easy |20.07.15|
 | ~1021| stack | Remove Outermost Parentheses | [leetcode](stack/1021.removeOuterParentheses.js) | Easy |20.07.15|
 | 1047 | stack | RRemove All Adjacent Duplicates In String | [leetcode](stack/1047.removeDuplicates.js) | Easy |20.07.15|
-| 1047 | stack | Build an Array With Stack Operations | [leetcode](stack/1047.removeDuplicates.js) | Easy |20.07.15|
+| 1047 | stack | Build an Array With Stack Operations | [leetcode](stack/1441.buildArray.js) | Easy |20.07.15|
 
 
 
